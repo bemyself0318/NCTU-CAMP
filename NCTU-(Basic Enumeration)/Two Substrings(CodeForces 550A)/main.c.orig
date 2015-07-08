@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+int main()
+{
+    char s[100010]= {'0'};
+    fgets(s,100010,stdin);
+    int len=(int)strlen(s);
+    int i;
+    bool result=false,check=false;
+    for(i=1;i<len-1;i++){
+        if(!check){
+        if(s[i]=='B' && s[i-1]=='A'){
+            i+=1;
+            check=true;
+        }
+        }
+        else if(check){
+        if(s[i]=='A' && s[i-1]=='B'){
+            result=true;
+        }
+        }
+    }
+    for(i=1;i<len-1;i++){
+        if(!check){
+        if(s[i]=='A' && s[i-1]=='B'){
+            i+=1;
+            check=true;
+        }
+        }
+        else if(check){
+        if(s[i]=='B' && s[i-1]=='A'){
+            result=true;
+        }
+        }
+    }
+     
+    if(result)
+        printf("YES\n");
+    else
+        printf("NO\n");
+    return 0;
+}

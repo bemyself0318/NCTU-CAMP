@@ -1,0 +1,14 @@
+Origin                  Title
+
+UVALive     7150 	    Amalgamated Artichokes
+UVA         725	        Division
+POJ         1970	    The Game
+CodeForces  550A	    Two Substrings
+CodeForces  551B	    ZgukistringZ
+UVA         10696	    f91
+UVA         291	        The House Of Santa Claus
+UVA         989	        Su Doku
+CodeForces  513B1       Permutations
+CodeForces  550B	    Preparing Olympiad
+UVA         10309	    Turn the Lights Off
+CodeForces  513B2     	Permutations

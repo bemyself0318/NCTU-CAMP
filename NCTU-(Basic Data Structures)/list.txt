@@ -1,0 +1,8 @@
+Origin      Title
+
+UVA 514	    Rails
+UVA 540	    Team Queue
+UVA 10935	Throwing cards away I
+UVA 11350	Stern-Brocot Tree
+UVA 536	    Tree Recovery
+UVA 11111	Generalized Matrioshkas
